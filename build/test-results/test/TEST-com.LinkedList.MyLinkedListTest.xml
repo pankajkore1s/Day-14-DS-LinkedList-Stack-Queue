@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.LinkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-16T17:26:37" hostname="DESKTOP-7O2OJUS" time="0.033">
+<testsuite name="com.LinkedList.MyLinkedListTest" tests="2" skipped="0" failures="0" errors="0" timestamp="2022-02-18T08:54:05" hostname="DESKTOP-7O2OJUS" time="0.07">
   <properties/>
-  <testcase name="given3NumbersWhenAddedToLinkedList_ShouldBeAddedToTop()" classname="com.LinkedList.MyLinkedListTest" time="0.033"/>
+  <testcase name="given3NumbersWhenAddedToLinkedList_ShouldBeAddedToTop()" classname="com.LinkedList.MyLinkedListTest" time="0.065"/>
+  <testcase name="given3NumbersWhenAppendedToLinkedList_ShouldBeAddedToLast()" classname="com.LinkedList.MyLinkedListTest" time="0.003"/>
   <system-out><![CDATA[My Nodes56->30->70
+My Nodes56->30->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
