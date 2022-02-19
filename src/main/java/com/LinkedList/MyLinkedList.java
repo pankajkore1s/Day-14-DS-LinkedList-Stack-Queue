@@ -77,6 +77,16 @@ public class MyLinkedList<K> {
         tempNode.setNext(null);
         return tempNode;
     }
+    public INode searchElement(K key){
+        INode tempNode=head;
+        while (tempNode!=null){
+            if (tempNode.getKey()==key){
+                return tempNode;
+            }
+            tempNode = tempNode.getNext();
+        }
+        return null;
+    }
 
     /**
      * Print my node when I appending the node

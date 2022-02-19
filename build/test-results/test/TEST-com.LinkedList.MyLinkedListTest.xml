@@ -1,9 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.LinkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-19T07:42:46" hostname="DESKTOP-7O2OJUS" time="0.057">
+<testsuite name="com.LinkedList.MyLinkedListTest" tests="6" skipped="0" failures="0" errors="0" timestamp="2022-02-19T07:54:09" hostname="DESKTOP-7O2OJUS" time="0.06">
   <properties/>
-  <testcase name="givenLastElementWhenDeleteShouldPassLinkedListResult()" classname="com.LinkedList.MyLinkedListTest" time="0.057"/>
-  <system-out><![CDATA[My Nodes56 ->30 ->70
+  <testcase name="given1stElementWhenDeleteShouldPassLinkedListResult()" classname="com.LinkedList.MyLinkedListTest" time="0.04"/>
+  <testcase name="givenElementWhenFoundShouldPassLinkedListResult()" classname="com.LinkedList.MyLinkedListTest" time="0.006"/>
+  <testcase name="given3NumbersWhenAddedToLinkedList_ShouldBeAddedToTop()" classname="com.LinkedList.MyLinkedListTest" time="0.002"/>
+  <testcase name="givenLastElementWhenDeleteShouldPassLinkedListResult()" classname="com.LinkedList.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumbersWhenAppendedToLinkedList_ShouldBeAddedToLast()" classname="com.LinkedList.MyLinkedListTest" time="0.002"/>
+  <testcase name="given3NumbersWhenInsertingSecondInBetweenShouldPassLinkedListResult()" classname="com.LinkedList.MyLinkedListTest" time="0.002"/>
+  <system-out><![CDATA[My Nodes30 ->70
+My Nodes70 ->30 ->56
+My Nodes70 ->30 ->56
+My Nodes56 ->30 ->70
 My Nodes56 ->30
+My Nodes56 ->30 ->70
+My Nodes56 ->30 ->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
