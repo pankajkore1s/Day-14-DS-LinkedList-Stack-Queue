@@ -3,6 +3,7 @@ package com.LinkedList;
 public class MyLinkedList<K> {
     public INode head;
     public INode tail;
+    public Object INode;
 
     public MyLinkedList() {
         this.head=null;
@@ -67,6 +68,16 @@ public class MyLinkedList<K> {
         return tempNode;
     }
 
+    public INode popLast(){
+        INode tempNode= head;
+        while (!tempNode.getNext().equals(tail)) {
+            tempNode=tempNode.getNext();
+        }
+        this.tail=tempNode;
+        tempNode.setNext(null);
+        return tempNode;
+    }
+
     /**
      * Print my node when I appending the node
      * then it will be adding to front node
@@ -76,7 +87,7 @@ public class MyLinkedList<K> {
         INode tempNode=head;
         while (tempNode.getNext()!=null){
             myNodes.append(tempNode.getKey());
-            if (!tempNode.equals(tail))myNodes.append("->");
+            if (!tempNode.equals(tail))myNodes.append(" ->");
             tempNode=tempNode.getNext();
         }
         myNodes.append(tempNode.getKey());
