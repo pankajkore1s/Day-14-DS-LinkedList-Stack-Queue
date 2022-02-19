@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.LinkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-19T12:45:39" hostname="DESKTOP-7O2OJUS" time="0.035">
+<testsuite name="com.LinkedList.MyLinkedListTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-19T12:56:51" hostname="DESKTOP-7O2OJUS" time="0.032">
   <properties/>
-  <testcase name="SearchDataNodeForGivenDataIfFoundShouldInsertGivenNodeAndReturnTrue()" classname="com.LinkedList.MyLinkedListTest" time="0.035"/>
-  <system-out><![CDATA[My Nodes56 ->30 ->70
-My Nodes56 ->30 ->40 ->70
+  <testcase name="SearchNodeForGivenElementIfFoundShouldDeleteGivenNodeAndReturnTrue()" classname="com.LinkedList.MyLinkedListTest" time="0.032"/>
+  <system-out><![CDATA[My Nodes56 ->30 ->40 ->70
+My Nodes56 ->30 ->70
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
