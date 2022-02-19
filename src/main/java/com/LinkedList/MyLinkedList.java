@@ -1,9 +1,8 @@
 package com.LinkedList;
 
-public class MyLinkedList<K> {
+public class MyLinkedList<K extends Comparable> {
     public INode head;
     public INode tail;
-    public Object INode;
 
     public MyLinkedList() {
         this.head=null;
@@ -126,5 +125,30 @@ public class MyLinkedList<K> {
             tempNode = tempNode.getNext();
         }
         return size;
+    }
+    /**
+     * Ability to create Ordered Linked List
+     * in ascending order of data entered
+     * in following sequence 56, 30, 40,and 70
+     * Final Sequence: 30->40->56->70
+     * @param newNode
+     */
+    public void sortedLinkedList(INode<K> newNode) {
+        INode tempNode = head;
+        INode prevNode = null;
+        while (tempNode != null && (newNode.getKey()).compareTo((K) tempNode.getKey()) > 0) {
+            prevNode = tempNode;
+            tempNode = tempNode.getNext();
+        }
+        if (prevNode == null) {
+            this.head = newNode;
+        } else {
+            prevNode.setNext(newNode);
+        }
+        newNode.setNext(tempNode);
+        while (tempNode != null) {
+            this.tail = tempNode;
+            tempNode = tempNode.getNext();
+        }
     }
 }
