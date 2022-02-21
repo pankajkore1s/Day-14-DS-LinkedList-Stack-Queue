@@ -17,4 +17,17 @@ public class MyQueueTest {
         INode peak=myQueue.peak();
         Assertions.assertEquals(myFirstNode,peak);
     }
+    @Test
+    public void given3_NoInQueue_When_Dequeue_From_Queue_Should_MatchWith_Added_Node(){
+        MyNode<Integer> myFirstNode = new MyNode<>(70);
+        MyNode<Integer> mySecondNode = new MyNode<>(30);
+        MyNode<Integer> myThirdNode = new MyNode<>(56);
+        MyQueue myQueue = new MyQueue();
+        myQueue.enqueue(myFirstNode);
+        myQueue.enqueue(mySecondNode);
+        myQueue.enqueue(myThirdNode);
+        INode deQueue=myQueue.dequeue();
+        myQueue.printQueue();
+        Assertions.assertEquals(myFirstNode,deQueue);
+    }
 }

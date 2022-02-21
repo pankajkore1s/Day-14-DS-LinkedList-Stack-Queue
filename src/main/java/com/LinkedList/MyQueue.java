@@ -29,4 +29,11 @@ public class MyQueue {
     public INode peak() {
         return myLinkedList.head;
     }
+    /**
+     * dequeue method will delete front element in Queue
+     * @return
+     */
+    public INode dequeue() {
+        return myLinkedList.pop();
+    }
 }

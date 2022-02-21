@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.LinkedList.MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-21T14:16:21" hostname="DESKTOP-7O2OJUS" time="0.039">
+<testsuite name="com.LinkedList.MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-21T14:20:20" hostname="DESKTOP-7O2OJUS" time="0.04">
   <properties/>
-  <testcase name="given3_No_When_AddedToQueue_Should_Have_LastAddedNode()" classname="com.LinkedList.MyQueueTest" time="0.039"/>
-  <system-out><![CDATA[My Nodes56 ->30 ->70
+  <testcase name="given3_NoInQueue_When_Dequeue_From_Queue_Should_MatchWith_Added_Node()" classname="com.LinkedList.MyQueueTest" time="0.04"/>
+  <system-out><![CDATA[My Nodes30 ->56
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>
