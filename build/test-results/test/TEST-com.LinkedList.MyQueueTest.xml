@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.LinkedList.MyQueueTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-21T14:16:21" hostname="DESKTOP-7O2OJUS" time="0.039">
+  <properties/>
+  <testcase name="given3_No_When_AddedToQueue_Should_Have_LastAddedNode()" classname="com.LinkedList.MyQueueTest" time="0.039"/>
+  <system-out><![CDATA[My Nodes56 ->30 ->70
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
