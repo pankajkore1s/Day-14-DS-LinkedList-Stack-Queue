@@ -33,4 +33,11 @@ public class MyStack {
     public INode peak() {
         return myLinkedList.head;
     }
+    /**
+     * pop method will delete the the last added node
+     * @return
+     */
+    public INode pop() {
+        return myLinkedList.pop();
+    }
 }
