@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.LinkedList.MyStackTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-02-21T12:44:44" hostname="DESKTOP-7O2OJUS" time="0.037">
+  <properties/>
+  <testcase name="given3_No_When_AddedToStack_Should_Have_LastAddedNode()" classname="com.LinkedList.MyStackTest" time="0.037"/>
+  <system-out><![CDATA[My Nodes56 ->30 ->70
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
